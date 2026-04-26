@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+# Uma coleção de caracteres de escape para colorizar a saída padrão
+
 reset="\e[0m"
 
 fgBlack="\e[0;30m"

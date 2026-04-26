@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Utiliza do fato do bash automaticamente remover
+# espaços em branco excedentes de parâmetros
+
 if [ "$1" != "" ]; then
    text="$1"
 else

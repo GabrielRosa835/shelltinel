@@ -1,7 +1,13 @@
 #!/bin/bash
-source colors
+
+# Formata uma mensagem acrescentando a data, hora e nível
+# do log no cabeçalho
+
+source ./colors
+
 LEVEL="TRC"
 COLOR="$fgWhite"
+
 case "$1" in
    -f) 
       LEVEL="FTL"
