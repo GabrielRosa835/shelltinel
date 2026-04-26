@@ -1,6 +1,4 @@
-# Bold: 1 (e.g., \e[1;31m for Bold Red).
-# Underline: 4 (e.g., \e[4;32m for Underlined Green).
-# 256-Color Support: \e[38;5;[0-255]m for foreground or \e[48;5;[0-255]m for background. 
+#!/bin/bash 
 
 reset="\e[0m"
 
